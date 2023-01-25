@@ -1,0 +1,277 @@
+@media screen and (min-width:320px) and (max-width:767px) {
+    #facilitySection .facility-box .facility-para {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 19px;
+        color: #7F8698;
+    }
+    .padtop-70 {
+        padding-top: 40px;
+    }           
+    .pad-70 {
+        padding: 40px 0;
+    }
+
+    #latestArrivalSection .la-product-title {
+        font-weight: 500;
+        font-size: 14px;
+        color: #34394C;
+    }
+    #latestArrivalSection .rate-star-box .review-star {
+        color: #FFB400;
+        font-size: 9px;
+    }
+    #latestArrivalSection .rate-star-box .review-title {
+        font-weight: 300;
+        font-size: 12px;
+        color: #7F8698;
+    }
+    .size-box {
+        padding-left: 0;
+    }
+    #latestArrivalSection .la-prduct-price {
+        font-weight: 600;
+        font-size: 15px;
+        color: #297176;
+    }
+    #latestArrivalSection .size-box .la-size-label {
+        border: 0.8px solid #A5A9B3;
+        border-radius: 2px;
+        font-weight: 500;
+        width: 32px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+        color: #A2A5AD;
+        padding: 2px 3px;
+    }
+    #latestArrivalSection .latest-product .tag-left {
+        font-weight: 300;
+        font-size: 11px;
+        font-family: "Outfit", sans-serif;
+        background: #31797E;
+        border-radius: 2px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #latestArrivalSection .latest-product .tag-right {
+        font-weight: 300;
+        font-size: 11px;
+        background: #F04726;
+        border-radius: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #offertimeSection .events-desc-bx .h2 {
+        font-weight: 400;
+        font-size: 33px;
+        line-height: 27px;
+        font-family: "Outfit", sans-serif;
+        color: #34394C;
+    }
+    #offertimeSection .events-desc-bx .event-ofer-desc {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 24px;
+        color: #707686;
+    }
+    #offertimeSection .events-desc-bx .count-price {
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 37px;
+        font-family: "Outfit", sans-serif;
+        color: #589195;
+    }
+    #offertimeSection .buy-btn {
+        color: #fff;
+        padding: 12px 36px;
+        background-color: #589195;
+        border-radius: 30px;
+        width: 52%;
+    }
+    #offertimeSection .events-img-box {
+        overflow: hidden;
+        max-width: 100%;
+        width: 320px;
+        height: 320px;
+        background: #DEECEC;
+        box-shadow: 0px 4px 14px rgb(131 179 196 / 15%);
+        border-radius: 100%;
+        z-index: 1;
+        margin: auto;
+    }
+    #offertimeSection .count-time-img {
+        position: absolute;
+        z-index: 2;
+        bottom: 0;
+        width: 249px;
+        left: 8%;
+    }
+    #offertimeSection .counter-item .time-count {
+        background: #FFFFFF;
+        border-radius: 100%;
+        width: 54px;
+        height: 54px;
+        font-family: "Outfit", sans-serif;
+        color: #34394C;
+        font-weight: 300;
+        font-size: 20px;
+    }
+    .event-price {
+        text-align: center;
+    }
+    #featuredProduct .product-body .product-title {
+        font-weight: 500;
+        font-size: 15px;
+        color: #34394C;
+    }
+    #featuredProduct .product-body .product-review .review-star {
+        color: #FFB400;
+        font-size: 10px;
+    }
+    #featuredProduct .product-body .product-review .review-title {
+        font-weight: 300;
+        font-size: 13px;
+        color: #7F8698;
+    }
+    #featuredProduct .product-body .product-sz-clr-box .color-label {
+        width: 11px;
+        height: 11px;
+        border-radius: 100%;
+    }
+    #featuredProduct .product-body .product-sz-clr-box .color-radio {
+        position: absolute;
+        left: 0px;
+        top: 2px;
+        width: 11px;
+        height: 11px;
+    }
+    .ft-link-item {
+        width: 50%;
+
+        float: left;
+    }
+    .w-66 {
+        width: 100%;
+    }
+    #offersSection2 .offer-pic {
+        -o-object-fit: contain;
+        object-fit: contain;
+        bottom: 0;
+        right: 0;
+       
+        width: 94%;
+
+    }
+    #offersSection2 .offer-desc-box h6 {
+        font-weight: 500;
+        font-size: 20px;
+        font-family: "Outfit", sans-serif;
+        color: #34394C;
+        margin: 6px 0;
+    }
+    #offersSection2 .offer-desc-box .shop-now-btn {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 45px;
+        text-decoration: underline;
+        color: #000000;
+    }#offersSection2 .offer-desc-box .shop-now-btn {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 35px;
+        text-decoration: underline;
+        color: #000000;
+    }
+    #offersSection2 .offer-desc-box {
+        padding: 45px 10px;
+    }
+    #offersSection2 .offerbox-2 {
+        background: #F7EBD9;
+        height: 240px;
+    }
+    #shopCategory .sec-title {
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 33px;
+        color: #34394C;
+        font-family: "Outfit", sans-serif;
+    }
+    #shopCategory .category-title {
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        color: #34394C;
+    }
+    #shopCategory .category-para {
+        font-weight: 400;
+        font-size: 14px;
+        font-family: "Outfit", sans-serif;
+        color: #BFBFBF;
+    }
+    #shopCategory .para {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 28px;
+        color: #707686;
+    }
+    #testimonialSection .test-sec-title {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 50px;
+        font-family: "Outfit", sans-serif;
+        color: #34394C;
+    }
+    #featuredProduct .product-card {
+        background: #F7F8FC;
+        border-radius: 4px;
+        overflow: hidden;
+        height: 197px;
+        max-height: 100%;
+        // box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    }
+    #featuredProduct .product-body .product-price {
+        font-weight: 600;
+        font-size: 20px;
+        color: #297176;
+    }
+    #featuredProduct .product-body .size-label {
+        border: 0.8px solid #A5A9B3;
+        border-radius: 2px;
+        font-weight: 500;
+        width: 23px;
+        text-align: center;
+        font-size: 13px;
+        line-height: 18px;
+        color: #A2A5AD;
+        padding: 2px 3px;
+    }
+    .pad-sm-0 {
+        padding: 0;
+    }
+    #featuredProduct .product-body .size-input {
+        position: absolute;
+        left: 1px;
+        top: -2px;
+        width: 22px;
+        height: 22px;
+       
+    }
+    #bannerSection .title-box .banner-title {
+        font-family: "Outfit", sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 45px;
+        color: #3A415C;
+    }
+    #bannerSection .title-box .sale-title {
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 60px;
+        color: #589195;
+    }
+}

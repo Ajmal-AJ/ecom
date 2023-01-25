@@ -1,0 +1,1528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body>
+
+  <main>
+
+    <header id="header">
+      <nav class="navbar navbar-expand-lg  navbar-scroll">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="assets/images/Group 71 (1).png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-lg-around" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Shop
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  page
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+
+            </ul>
+
+            <ul class="navbar-nav d-sm-none d-lg-flex d-none ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><img src="assets/images/icons/search.svg"
+                    alt=""></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><img src="assets/images/icons/user.svg"
+                    alt=""></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link position-relative" aria-current="page" href="#"><img
+                    src="assets/images/icons/cart.svg" alt="" class=""><span class="badge count rounded-pill ">2</span>
+                </a>
+              </li>
+
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="mobile-bottom-nav d-lg-none d-md-flex d-sm-flex d-flex ">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-12">
+
+            <ul class="navbar-nav fixed-bottom d-flex justify-content-around mb-nav">
+              <li class="nav-item mob-nav-item">
+                <a class="nav-link mob-nav-link active" aria-current="page" href="#"><img src="assets/images/icons/search.svg"
+                    alt="" class="mx-auto img-fluid mob-nav-icon"></a>
+              </li>
+  
+              <li class="nav-item mob-nav-item">
+                <a class="nav-link mob-nav-link active" aria-current="page" href="#"><img src="assets/images/icons/user.svg"
+                    alt="" class="mx-auto img-fluid mob-nav-icon"></a>
+              </li>
+  
+              <li class="nav-item mob-nav-item">
+                <a class="nav-link mob-nav-link position-relative" aria-current="page" href="#"><img
+                    src="assets/images/icons/cart.svg" alt="" class="mx-auto img-fluid mob-nav-icon"><span class="badge count rounded-pill ">2</span>
+                </a>
+              </li>
+  
+  
+            </ul>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+
+    <!-- slider-banner-------- -->
+    <section class="bannersection position-relative" id="bannerSection">
+      <img src="assets/images/banner/shape-1.svg" class="d-block position-absolute shape1" alt="">
+      <img src="assets/images/banner/shape-2.svg" class="d-block position-absolute shape2" alt="">
+      <div class="container">
+        <div class="banner-slider">
+          <div class="owl-carousel owl-theme">
+            <div class=" item">
+              <div class="row">
+                <div
+                  class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex align-items-center mt-lg-2 order-2 order-lg-1">
+                  <div class="title-box">
+                    <span class="sale-title text-uppercase">Summer sale is on</span>
+                    <h1 class="banner-title">Make Your Fashion
+                      More Perfect</h1>
+                    <p class="banner-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <a href="#" class="ulina-btn">Explore More</a>
+                  </div>
+                </div>
+                <div
+                  class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex justify-content-center mt-lg-2 order-1 order-lg-2 ">
+                  <div class="banner-img-box position-relative">
+                    <img src="assets/images/banner/banner slide-1.svg"
+                      class="d-block mx-auto img-fluid banner-img position-relative" alt="">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class=" item">
+              <div class="row">
+                <div
+                  class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex align-items-center mt-lg-2 order-2 order-lg-1">
+                  <div class="title-box">
+                    <span class="sale-title text-uppercase">Summer sale is on</span>
+                    <h1 class="banner-title">Make Your Fashion
+                      More Perfect</h1>
+                    <p class="banner-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <a href="#" class="ulina-btn">Explore More</a>
+                  </div>
+                </div>
+                <div
+                  class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex justify-content-center mt-lg-2 order-1 order-lg-2 ">
+                  <div class="banner-img-box position-relative">
+                    <img src="assets/images/banner/banner slide-1.svg"
+                      class="d-block mx-auto img-fluid banner-img position-relative" alt="">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class=" item">
+              <div class="row">
+                <div
+                  class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex align-items-center mt-lg-2 order-2 order-lg-1">
+                  <div class="title-box">
+                    <span class="sale-title text-uppercase">Summer sale is on</span>
+                    <h1 class="banner-title">Make Your Fashion
+                      More Perfect</h1>
+                    <p class="banner-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <a href="#" class="ulina-btn">Explore More</a>
+                  </div>
+                </div>
+                <div
+                  class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex justify-content-center mt-lg-2 order-1 order-lg-2 ">
+                  <div class="banner-img-box position-relative">
+                    <img src="assets/images/banner/banner slide-1.svg"
+                      class="d-block mx-auto img-fluid banner-img position-relative" alt="">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+
+
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ---facility section----- -->
+    <section class="facilitysection padtop-70" id="facilitySection">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
+            <div class="facility-box">
+              <img src="assets/images/icons/shipping.svg" class="facility-icon" alt="">
+              <h2 class="h5 text-capitalize facility-title">Free Shipping</h2>
+              <p class="facility-para">Ut enim ad minim veniam liquip ami tomader
+              </p>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
+            <div class="facility-box">
+              <img src="assets/images/icons/secure payment.svg" class="facility-icon" alt="">
+              <h2 class="h5 text-capitalize facility-title">Secure Payments
+              </h2>
+              <p class="facility-para">Eonim ad minim veniam liquip tomader
+
+              </p>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
+            <div class="facility-box">
+              <img src="assets/images/icons/return.svg" class="facility-icon" alt="">
+              <h2 class="h5 text-capitalize facility-title">Easy Returns
+              </h2>
+              <p class="facility-para">Be enim ad minim veniam liquipa ami tomader
+
+              </p>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
+            <div class="facility-box">
+              <img src="assets/images/icons/24hsuport.svg" class="facility-icon" alt="">
+              <h2 class="h5 text-capitalize facility-title">24/7 Support
+              </h2>
+              <p class="facility-para">Ut enim ad minim veniam liquip ami tomader
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---Latest Arrival section-----  -->
+    <section class="latest-product pad-70" id="latestArrivalSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-12">
+            <h3 class="sec-title text-capitalize text-start">Latest Arrival</h3>
+            <p class="sec-desc text-start">Showing our latest arrival on this summer</p>
+          </div>
+
+
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="card border-0">
+              <div class="latest-product py-3 px-2">
+                <div class="tag-box d-flex justify-content-between">
+                  <span class="badge tag-left text-uppercase">Top</span>
+                  <span class="badge tag-right text-uppercase">sale</span>
+
+                </div>
+                <div class="la-img-box">
+                  <img src="assets/images/products/la-1.png" class="img-fluid d-block mx-auto" alt="">
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="rate-star-box">
+                  <i class="fa-solid fa-star review-star"></i>
+                  <i class="fa-solid fa-star review-star"></i>
+                  <i class="fa-solid fa-star review-star"></i>
+                  <i class="fa-solid fa-star review-star"></i>
+                  <i class="fa-solid fa-star review-star"></i>
+                  <span class="review-title">4 Review</span>
+                </div>
+
+                <h4 class="h4 la-product-title">Ladies yellow top</h4>
+
+                <div class="d-lg-flex d-sm-block d-block justify-content-lg-between">
+                  <h5 class="h5 la-prduct-price">$25</h5>
+                  <div class="size-box position-relative form-check">
+                    <label for="" class="form-check-label la-size-label">L</label>
+                    <input type="radio" name="size" class="form-check-input position-absolute size-input " value="L"
+                      id="">
+
+                    <label for="" class="form-check-label la-size-label">S</label>
+                    <input type="radio" name="size" class="form-check-input position-absolute size-input" value="s"
+                      id="">
+
+                    <label for="" class="form-check-label la-size-label">XL</label>
+                    <input type="radio" name="size" class="form-check-input position-absolute size-input" value="xl"
+                      id="">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="card border-0">
+              <div class="latest-product py-3 px-2">
+                <div class="tag-box d-flex justify-content-between">
+                  <span class="badge tag-left text-uppercase">Top</span>
+                  <span class="badge tag-right text-uppercase">sale</span>
+
+                </div>
+                <div class="la-img-box">
+                  <img src="assets/images/products/la-2.png" class="img-fluid d-block mx-auto" alt="">
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="rate-star-box">
+                  <i class="fa-solid fa-star review-star"></i>
+                  <i class="fa-solid fa-star review-star"></i>
+                  <i class="fa-solid fa-star review-star"></i>
+                  <i class="fa-solid fa-star review-star"></i>
+                  <i class="fa-solid fa-star review-star"></i>
+                  <span class="review-title">4 Review</span>
+                </div>
+
+                <h4 class="h4 la-product-title">Ladies yellow top</h4>
+
+                <div class="d-lg-flex d-sm-block d-block justify-content-lg-between">
+                  <h5 class="h5 la-prduct-price">$25</h5>
+                  <div class="size-box position-relative form-check">
+                    <label for="" class="form-check-label la-size-label">L</label>
+                    <input type="radio" name="size" class="form-check-input position-absolute size-input " value="L"
+                      id="">
+
+                    <label for="" class="form-check-label la-size-label">S</label>
+                    <input type="radio" name="size" class="form-check-input position-absolute size-input" value="s"
+                      id="">
+
+                    <label for="" class="form-check-label la-size-label">XL</label>
+                    <input type="radio" name="size" class="form-check-input position-absolute size-input" value="xl"
+                      id="">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="card border-0">
+              <div class="latest-product py-3 px-2">
+                <div class="tag-box d-flex justify-content-between">
+                  <span class="badge tag-left text-uppercase">Top</span>
+                  <span class="badge tag-right text-uppercase">sale</span>
+
+                </div>
+                <div class="la-img-box">
+                  <img src="assets/images/products/la-3.png" class="img-fluid d-block mx-auto" alt="">
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="rate-star-box">
+                  <i class="fa-solid fa-star review-star"></i>
+                  <i class="fa-solid fa-star review-star"></i>
+                  <i class="fa-solid fa-star review-star"></i>
+                  <i class="fa-solid fa-star review-star"></i>
+                  <i class="fa-solid fa-star review-star"></i>
+                  <span class="review-title">4 Review</span>
+                </div>
+
+                <h4 class="h4 la-product-title">Ladies yellow top</h4>
+
+                <div class="d-lg-flex d-sm-block d-block justify-content-lg-between">
+                  <h5 class="h5 la-prduct-price">$25</h5>
+                  <div class="size-box position-relative form-check">
+                    <label for="" class="form-check-label la-size-label">L</label>
+                    <input type="radio" name="size" class="form-check-input position-absolute size-input " value="L"
+                      id="">
+
+                    <label for="" class="form-check-label la-size-label">S</label>
+                    <input type="radio" name="size" class="form-check-input position-absolute size-input" value="s"
+                      id="">
+
+                    <label for="" class="form-check-label la-size-label">XL</label>
+                    <input type="radio" name="size" class="form-check-input position-absolute size-input" value="xl"
+                      id="">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="card border-0">
+              <div class="latest-product py-3 px-2">
+                <div class="tag-box d-flex justify-content-between">
+                  <span class="badge tag-left text-uppercase">Top</span>
+                  <span class="badge tag-right text-uppercase">sale</span>
+
+                </div>
+                <div class="la-img-box">
+                  <img src="assets/images/products/la-4.png" class="img-fluid d-block mx-auto" alt="">
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="rate-star-box">
+                  <i class="fa-solid fa-star review-star"></i>
+                  <i class="fa-solid fa-star review-star"></i>
+                  <i class="fa-solid fa-star review-star"></i>
+                  <i class="fa-solid fa-star review-star"></i>
+                  <i class="fa-solid fa-star review-star"></i>
+                  <span class="review-title">4 Review</span>
+                </div>
+
+                <h4 class="h4 la-product-title">Ladies yellow top</h4>
+
+                <div class="d-lg-flex d-sm-block d-block justify-content-lg-between">
+                  <h5 class="h5 la-prduct-price">$25</h5>
+                  <div class="size-box position-relative form-check">
+                    <label for="" class="form-check-label la-size-label">L</label>
+                    <input type="radio" name="size" class="form-check-input position-absolute size-input " value="L"
+                      id="">
+
+                    <label for="" class="form-check-label la-size-label">S</label>
+                    <input type="radio" name="size" class="form-check-input position-absolute size-input" value="s"
+                      id="">
+
+                    <label for="" class="form-check-label la-size-label">XL</label>
+                    <input type="radio" name="size" class="form-check-input position-absolute size-input" value="xl"
+                      id="">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---offer counttimer -------  -->
+    <section class="offerendtime pad-70" id="offertimeSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-md-12 col-12 position-relative">
+            <div class="events-img-box position-relative">
+              <img src="assets/images/banner/counter-img.svg" class="d-block mx-auto img-fluid count-time-img" alt="">
+            </div>
+          </div>
+
+          <div class="col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-md-12 col-12">
+            <div class="events-desc-bx">
+              <h4 class="h6 text-capitalize ">Featured Product</h4>
+              <h5 class="h2 text-capitalize">Ulina Fashionable Jeans
+              </h5>
+              <p class="event-ofer-desc">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequa uis aute irure dolor
+              </p>
+              <div class="row">
+                <div class="col-lg-12 ">
+                  <div class="event-price d-lg-flex align-items-center">
+                    <h6 class="h3 count-price">$199 <s class="mrp-price">$399</s></h6>
+                    <a href="" class="text-uppercase buy-btn mx-5">Buy Now</a>
+                  </div>
+
+                </div>
+                <div class="col-lg-6 d-flex align-items-center justify-content-start">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="timebox">
+                    <h6 class="h6 ">End In</h6>
+
+                    <div id="countdown">
+                      <ul class="d-flex p-0">
+                        <li class="counter-item">
+                          <div id="days"
+                            class="time-count text-center d-flex justify-content-center align-items-center"></div>
+                          <h6 class="text-uppercase count-title">days </h6>
+
+                        </li>
+
+                        <li class="counter-item">
+                          <div id="hours"
+                            class="time-count text-center d-flex justify-content-center align-items-center"></div>
+                          <h6 class="text-uppercase count-title">HRS</h6>
+                        </li>
+
+                        <li class="counter-item">
+                          <div id="minutes"
+                            class="time-count text-center d-flex justify-content-center align-items-center"></div>
+                          <h6 class="text-uppercase count-title">mins</h6>
+                        </li>
+
+                        <li class="counter-item">
+                          <div id="seconds"
+                            class="time-count text-center d-flex justify-content-center align-items-center"></div>
+                          <h6 class="text-uppercase count-title">secs
+
+                          </h6>
+                        </li>
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----- product section ---  -->
+    <section class="featured-product pad-70" id="featuredProduct">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <h5 class="h2 text-capitalize">Featured product</h5>
+            <p class="fp-desc">Showing our latest arrival on this summer</p>
+          </div>
+          <div class="col-xxl-6 col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-end justify-content-end">
+            <ul class="d-flex category-item-box" id="categories">
+              <li class="category-item px-3"><a href="#categories" class="category-item-nav active"
+                  onclick="filterSelection('men')">Men</a></li>
+              <li class="category-item px-3"><a href="#categories" class="category-item-nav"
+                  onclick="filterSelection('women')">Women</a></li>
+              <li class="category-item px-3"><a href="#categories" class="category-item-nav"
+                  onclick="filterSelection('kids')">Kids</a></li>
+              <li class="category-item px-3"><a href="#categories" class="category-item-nav"
+                  onclick="filterSelection('accessories')">Accessories</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row product-list">
+          <div class="col-lg-3 col-sm-6 col-6 product-item men my-4">
+            <div class="card product-card border-0">
+              <ul class="p-0 d-flex justify-content-between p-2">
+                <li class="tag-left text-uppercase badge">Top</li>
+                <li class="tag-right text-uppercase badge">Sale</li>
+              </ul>
+              <img src="assets/images/products/p-1.png" class="d-block mx-auto img-fluid product-pic" alt="">
+
+            </div>
+            <div class="card-body product-body">
+              <div class="product-review py-2">
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <span class="review-title">4 Review</span>
+              </div>
+              <h5 class="h4 product-title">Luxury T-Shirt for Men</h5>
+              <h6 class="h5 product-price">$25</h6>
+              <div class="product-sz-clr-box row">
+
+                <ul class="col-6 d-flex mb-0 align-items-center pad-sm-0">
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label color-label" style="background-color: #2ED0E7;"></label>
+
+                    <input type="radio" class="form-check-input color-radio" name="color">
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label color-label" style="background-color: #C399AD;"></label>
+
+                    <input type="radio" class="form-check-input color-radio" name="color">
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label color-label" style="background-color: #040404;"></label>
+
+                    <input type="radio" class="form-check-input color-radio" name="color">
+                  </li>
+                </ul>
+
+                <ul class="col-6 d-flex align-items-center mb-0 pad-sm-0">
+                  <li class="pe-1 position-relative">
+
+                    <label for="" class="form-check-label size-label">L</label>
+                    <input type="radio" class="form-check-input size-input" name="size" value="l">
+
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label size-label">S</label>
+
+                    <input type="radio" class="form-check-input size-input " value="s" name="size">
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label size-label">XL</label>
+
+                    <input type="radio" class="form-check-input size-input" value="xl" name="size">
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-6 product-item women my-4">
+            <div class="card product-card border-0">
+              <ul class="p-0 d-flex justify-content-between p-2">
+                <li class="tag-left text-uppercase badge">Top</li>
+                <li class="tag-right text-uppercase badge">Sale</li>
+              </ul>
+              <img src="assets/images/products/p-2.png" class="d-block mx-auto img-fluid product-pic" alt="">
+
+            </div>
+            <div class="card-body product-body">
+              <div class="product-review py-2">
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <span class="review-title">4 Review</span>
+              </div>
+              <h5 class="h4 product-title">Luxury T-Shirt for Men</h5>
+              <h6 class="h5 product-price">$25</h6>
+              <!-- <div class="product-sz-clr-box row">
+                
+                <ul class="col-6 d-flex mb-0 align-items-center">
+                  <li class="pe-1 position-relative">
+                      <label for="" class="form-check-label color-label" style="background-color: #2ED0E7;"></label>
+                      
+                      <input type="radio" class="form-check-input color-radio" name="color"></li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label color-label" style="background-color: #C399AD;"></label>
+                    
+                    <input type="radio" class="form-check-input color-radio" name="color"></li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label color-label" style="background-color: #040404;"></label>
+                    
+                    <input type="radio" class="form-check-input color-radio" name="color"></li>
+                </ul>
+
+                <ul class="col-6 d-flex align-items-center mb-0">
+                  <li class="pe-1 position-relative">
+                    
+                    <label for="" class="form-check-label size-label">L</label>
+                    <input type="radio" class="form-check-input size-input" name="size" value="l">
+                  
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label size-label" >S</label>
+                    
+                    <input type="radio" class="form-check-input size-input " value="s" name="size">
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label size-label">XL</label>
+                    
+                    <input type="radio" class="form-check-input size-input" value="xl" name="size"></li>
+                </ul>
+
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-6 product-item men my-4">
+            <div class="card product-card border-0">
+              <ul class="p-0 d-flex justify-content-between p-2">
+                <li class="tag-left text-uppercase badge">Top</li>
+                <li class="tag-right text-uppercase badge">Sale</li>
+              </ul>
+              <img src="assets/images/products/p-3.png" class="d-block mx-auto img-fluid product-pic" alt="">
+
+            </div>
+            <div class="card-body product-body">
+              <div class="product-review py-2">
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <span class="review-title">4 Review</span>
+              </div>
+              <h5 class="h4 product-title">Luxury T-Shirt for Men</h5>
+              <h6 class="h5 product-price">$25</h6>
+              <div class="product-sz-clr-box row">
+
+                <ul class="col-6 d-flex mb-0 align-items-center ">
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label color-label" style="background-color: #BA2828;"></label>
+
+                    <input type="radio" class="form-check-input color-radio" name="color">
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label color-label" style="background-color: #E2C048;"></label>
+
+                    <input type="radio" class="form-check-input color-radio" name="color">
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label color-label" style="background-color: #040404;"></label>
+
+                    <input type="radio" class="form-check-input color-radio" name="color">
+                  </li>
+                </ul>
+
+                <ul class="col-6 d-flex align-items-center mb-0 pad-sm-0">
+                  <li class="pe-1 position-relative">
+
+                    <label for="" class="form-check-label size-label">L</label>
+                    <input type="radio" class="form-check-input size-input" name="size" value="l">
+
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label size-label">S</label>
+
+                    <input type="radio" class="form-check-input size-input " value="s" name="size">
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label size-label">XL</label>
+
+                    <input type="radio" class="form-check-input size-input" value="xl" name="size">
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-6 product-item men my-4">
+            <div class="card product-card border-0">
+              <ul class="p-0 d-flex justify-content-between p-2">
+                <li class="tag-left text-uppercase badge">Top</li>
+                <li class="tag-right text-uppercase badge">Sale</li>
+              </ul>
+              <img src="assets/images/products/p-4.png" class="d-block mx-auto img-fluid product-pic" alt="">
+
+            </div>
+            <div class="card-body product-body">
+              <div class="product-review py-2">
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <span class="review-title">4 Review</span>
+              </div>
+              <h5 class="h4 product-title">Luxury T-Shirt for Men</h5>
+              <h6 class="h5 product-price">$25</h6>
+              <div class="product-sz-clr-box row">
+
+                <ul class="col-6 d-flex mb-0 align-items-center">
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label color-label" style="background-color: #BA2828;"></label>
+
+                    <input type="radio" class="form-check-input color-radio" name="color">
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label color-label" style="background-color: #E5D4D1;"></label>
+
+                    <input type="radio" class="form-check-input color-radio" name="color">
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label color-label" style="background-color: #040404;"></label>
+
+                    <input type="radio" class="form-check-input color-radio" name="color">
+                  </li>
+                </ul>
+
+                <ul class="col-6 d-flex align-items-center mb-0 pad-sm-0">
+                  <li class="pe-1 position-relative">
+
+                    <label for="" class="form-check-label size-label">L</label>
+                    <input type="radio" class="form-check-input size-input" name="size" value="l">
+
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label size-label">S</label>
+
+                    <input type="radio" class="form-check-input size-input " value="s" name="size">
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label size-label">XL</label>
+
+                    <input type="radio" class="form-check-input size-input" value="xl" name="size">
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-6 product-item women my-4">
+            <div class="card product-card border-0">
+              <ul class="p-0 d-flex justify-content-between p-2">
+                <li class="tag-left text-uppercase badge">Top</li>
+                <li class="tag-right text-uppercase badge">Sale</li>
+              </ul>
+              <img src="assets/images/products/p-5.png" class="d-block mx-auto img-fluid product-pic" alt="">
+
+            </div>
+            <div class="card-body product-body">
+              <div class="product-review py-2">
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <span class="review-title">4 Review</span>
+              </div>
+              <h5 class="h4 product-title">Luxury T-Shirt for Women</h5>
+              <h6 class="h5 product-price">$25</h6>
+              <div class="product-sz-clr-box row">
+
+                <ul class="col-6 d-flex mb-0 align-items-center">
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label color-label" style="background-color: #BA2828;"></label>
+
+                    <input type="radio" class="form-check-input color-radio" name="color">
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label color-label" style="background-color: #56C4E7;"></label>
+
+                    <input type="radio" class="form-check-input color-radio" name="color">
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label color-label" style="background-color: #040404;"></label>
+
+                    <input type="radio" class="form-check-input color-radio" name="color">
+                  </li>
+                </ul>
+
+                <ul class="col-6 d-flex align-items-center mb-0 pad-sm-0">
+                  <li class="pe-1 position-relative">
+
+                    <label for="" class="form-check-label size-label">L</label>
+                    <input type="radio" class="form-check-input size-input" name="size" value="l">
+
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label size-label">S</label>
+
+                    <input type="radio" class="form-check-input size-input " value="s" name="size">
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label size-label">XL</label>
+
+                    <input type="radio" class="form-check-input size-input" value="xl" name="size">
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-6 product-item men my-4">
+            <div class="card product-card border-0">
+              <ul class="p-0 d-flex justify-content-between p-2">
+                <li class="tag-left text-uppercase badge">Top</li>
+                <li class="tag-right text-uppercase badge">Sale</li>
+              </ul>
+              <img src="assets/images/products/p-6.png" class="d-block mx-auto img-fluid product-pic" alt="">
+
+            </div>
+            <div class="card-body product-body">
+              <div class="product-review py-2">
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <span class="review-title">3 Review</span>
+              </div>
+              <h5 class="h4 product-title">White-Shirt for Men</h5>
+              <h6 class="h5 product-price">$35</h6>
+              <!-- <div class="product-sz-clr-box row">
+                
+                <ul class="col-6 d-flex mb-0 align-items-center">
+                  <li class="pe-1 position-relative">
+                      <label for="" class="form-check-label color-label" style="background-color: #2ED0E7;"></label>
+                      
+                      <input type="radio" class="form-check-input color-radio" name="color"></li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label color-label" style="background-color: #C399AD;"></label>
+                    
+                    <input type="radio" class="form-check-input color-radio" name="color"></li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label color-label" style="background-color: #040404;"></label>
+                    
+                    <input type="radio" class="form-check-input color-radio" name="color"></li>
+                </ul>
+
+                <ul class="col-6 d-flex align-items-center mb-0">
+                  <li class="pe-1 position-relative">
+                    
+                    <label for="" class="form-check-label size-label">L</label>
+                    <input type="radio" class="form-check-input size-input" name="size" value="l">
+                  
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label size-label" >S</label>
+                    
+                    <input type="radio" class="form-check-input size-input " value="s" name="size">
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label size-label">XL</label>
+                    
+                    <input type="radio" class="form-check-input size-input" value="xl" name="size"></li>
+                </ul>
+
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-6 product-item men my-4">
+            <div class="card product-card border-0">
+              <ul class="p-0 d-flex justify-content-between p-2">
+                <li class="tag-left text-uppercase badge">Top</li>
+                <li class="tag-right text-uppercase badge">Sale</li>
+              </ul>
+              <img src="assets/images/products/p-7.png" class="d-block mx-auto img-fluid product-pic" alt="">
+
+            </div>
+            <div class="card-body product-body">
+              <div class="product-review py-2">
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <span class="review-title">4 Review</span>
+              </div>
+              <h5 class="h4 product-title">Luxury T-Shirt for Men</h5>
+              <h6 class="h5 product-price">$25</h6>
+              <div class="product-sz-clr-box row">
+
+                <ul class="col-6 d-flex mb-0 align-items-center">
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label color-label" style="background-color: #BA2828;"></label>
+
+                    <input type="radio" class="form-check-input color-radio" name="color">
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label color-label" style="background-color: #886652;"></label>
+
+                    <input type="radio" class="form-check-input color-radio" name="color">
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label color-label" style="background-color: #040404;"></label>
+
+                    <input type="radio" class="form-check-input color-radio" name="color">
+                  </li>
+                </ul>
+
+                <ul class="col-6 d-flex align-items-center mb-0 pad-sm-0">
+                  <li class="pe-1 position-relative">
+
+                    <label for="" class="form-check-label size-label">L</label>
+                    <input type="radio" class="form-check-input size-input" name="size" value="l">
+
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label size-label">S</label>
+
+                    <input type="radio" class="form-check-input size-input " value="s" name="size">
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label size-label">XL</label>
+
+                    <input type="radio" class="form-check-input size-input" value="xl" name="size">
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-6 product-item women my-4">
+            <div class="card product-card border-0">
+              <ul class="p-0 d-flex justify-content-between p-2">
+                <li class="tag-left text-uppercase badge">Top</li>
+                <li class="tag-right text-uppercase badge">Sale</li>
+              </ul>
+              <img src="assets/images/products/p-8.png" class="d-block mx-auto img-fluid product-pic" alt="">
+
+            </div>
+            <div class="card-body product-body">
+              <div class="product-review py-2">
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <i class="fa-solid fa-star review-star"></i>
+                <span class="review-title">4 Review</span>
+              </div>
+              <h5 class="h4 product-title">Luxury T-Shirt for Men</h5>
+              <h6 class="h5 product-price">$25</h6>
+              <div class="product-sz-clr-box row">
+
+                <ul class="col-6 d-flex mb-0 align-items-center">
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label color-label" style="background-color: #BA2828;"></label>
+
+                    <input type="radio" class="form-check-input color-radio" name="color">
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label color-label" style="background-color: #D4C3DF;"></label>
+
+                    <input type="radio" class="form-check-input color-radio" name="color">
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label color-label" style="background-color: #040404;"></label>
+
+                    <input type="radio" class="form-check-input color-radio" name="color">
+                  </li>
+                </ul>
+
+                <ul class="col-6 d-flex align-items-center mb-0 pad-sm-0">
+                  <li class="pe-1 position-relative">
+
+                    <label for="" class="form-check-label size-label">L</label>
+                    <input type="radio" class="form-check-input size-input" name="size" value="l">
+
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label size-label">S</label>
+
+                    <input type="radio" class="form-check-input size-input " value="s" name="size">
+                  </li>
+                  <li class="pe-1 position-relative">
+                    <label for="" class="form-check-label size-label">XL</label>
+
+                    <input type="radio" class="form-check-input size-input" value="xl" name="size">
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <section class="pad-70" id="offersSection2">
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-6 mt-4">
+
+            <div class="offerbox-1">
+              <div class="row h-100">
+                <div class="col-lg-6 col-md-6  col-6 d-flex  align-items-center justify-content-center ">
+                  <div class="offer-desc-box">
+                    <span class="text-capitalize">get 40% off</span>
+                    <h6 class="text-capitalize">Women's new collection</h6>
+                    <a href="#" class="shop-now-btn text-capitalize">shop Now</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6  col-6  position-relative">
+                  <div class="offer-img-box ">
+                    <img src="assets/images/offers/off-women.png" class="mx-auto d-block position-absolute offer-pic"
+                      alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="offerbox-2">
+
+              <div class="row h-100">
+                <div class="col-lg-6 col-md-6  col-6 d-flex align-items-center justify-content-center">
+                  <div class="offer-desc-box">
+                    <span class="text-capitalize">Stay Upto Date</span>
+                    <h6 class="text-capitalize">Men’s Trendy Fashion</h6>
+                    <a href="#" class="shop-now-btn text-capitalize">shop Now</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-6 position-relative">
+                  <div class="offer-img-box ">
+                    <img src="assets/images/offers/off-men.png" class="mx-auto d-block position-absolute offer-pic"
+                      alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section class="pad-70" id="shopCategory">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-12">
+            <h2 class="text-capitalize sec-title">shop by category</h2>
+            <p class="para">showing our latest arrival on this summer</p>
+          </div>
+
+          <div class="col-lg-3 col-6">
+            <div class="category-card card border-0">
+              <img src="assets/images/category/cate-1.png" class="img-fluid d-block mx-auto" alt="">
+
+              <div class="card-body text-center">
+                <h5 class="text-capitalize category-title">Clothes</h5>
+                <p class="category-para">192 items</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6">
+            <div class="category-card card border-0">
+              <img src="assets/images/category/cate-2.png" class="img-fluid d-block mx-auto" alt="">
+              <div class="card-body text-center">
+                <h5 class="text-capitalize category-title">Bags</h5>
+                <p class="category-para">139 items</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6">
+            <div class="category-card card border-0">
+              <img src="assets/images/category/cate-3.png" class="img-fluid d-block mx-auto" alt="">
+              <div class="card-body text-center">
+                <h5 class="text-capitalize category-title">Watches</h5>
+                <p class="category-para">162 items</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6">
+            <div class="category-card card border-0">
+              <img src="assets/images/category/cate-4.png" class="img-fluid d-block mx-auto" alt="">
+              <div class="card-body text-center">
+                <h5 class="text-capitalize category-title">Jewellery</h5>
+                <p class="category-para">187 items</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="pad-70" id="testimonialSection">
+      <div class="container">
+        <div class="row position-relative">
+          <div class="col-lg-4 col-12 d-flex  flex-column align-items-center justify-content-center">
+            <h2 class="text-capitalize test-sec-title">What Customer Say About Us</h2>
+            <p class="testmnilsec-des">Bobore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat
+              ion ullamco laboris
+
+            </p>
+           
+          </div>
+          <div class="col-lg-8 col-12">
+            <div class="testimonials-box">
+              <div class="owl-carousel owl-theme">
+                <div class="item testimonial-item">
+                  <div class="card testmonial-card border-0">
+                    <div class="row">
+                      <div class="col-6 py-2">
+                        <img src="assets/images/icons/quotes.svg" class="quotes-icon" alt="">
+                      </div>
+                      <div class="col-6 py-2">
+                        <div class="ratestar-box">
+                          <i class="fa-solid fa-star review-star"></i> <i class="fa-solid fa-star review-star"></i> <i
+                            class="fa-solid fa-star review-star"></i> <i class="fa-solid fa-star review-star"></i> <i
+                            class="fa-solid fa-star review-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="testimonial-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat.
+
+                    </p>
+
+                    <div class="user-box row">
+                      <div class="col-3">
+                        <div class="user-img-bx">
+                          <img src="assets/images/testimonial/t-1.png" alt=""
+                            class="user-pic mx-auto img-fluid rounded-circle">
+
+                        </div>
+                      </div>
+                      <div class="col-9 px-0 ">
+                        <h6 class="user-name">Md Saimon</h6>
+                        <p class="user-designation">Journalist</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="item testimonial-item">
+                  <div class="card testmonial-card border-0">
+                    <div class="row">
+                      <div class="col-6 py-2">
+                        <img src="assets/images/icons/quotes.svg" class="quotes-icon" alt="">
+                      </div>
+                      <div class="col-6 py-2">
+                        <div class="ratestar-box">
+                          <i class="fa-solid fa-star review-star"></i> <i class="fa-solid fa-star review-star"></i> <i
+                            class="fa-solid fa-star review-star"></i> <i class="fa-solid fa-star review-star"></i> <i
+                            class="fa-solid fa-star review-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="testimonial-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat.
+
+                    </p>
+
+                    <div class="user-box row">
+                      <div class="col-3">
+                        <div class="user-img-bx">
+                          <img src="assets/images/testimonial/t-2.png" alt=""
+                            class="user-pic mx-auto img-fluid rounded-circle">
+
+                        </div>
+                      </div>
+                      <div class="col-9 px-0 ">
+                        <h6 class="user-name">Luziana Farnandes</h6>
+                        <p class="user-designation">Web Developer</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="item testimonial-item">
+                  <div class="card testmonial-card border-0">
+                    <div class="row">
+                      <div class="col-6 py-2">
+                        <img src="assets/images/icons/quotes.svg" class="quotes-icon" alt="">
+                      </div>
+                      <div class="col-6 py-2">
+                        <div class="ratestar-box">
+                          <i class="fa-solid fa-star review-star"></i> <i class="fa-solid fa-star review-star"></i> <i
+                            class="fa-solid fa-star review-star"></i> <i class="fa-solid fa-star review-star"></i> <i
+                            class="fa-solid fa-star review-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="testimonial-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat.
+
+                    </p>
+
+                    <div class="user-box row">
+                      <div class="col-3">
+                        <div class="user-img-bx">
+                          <img src="assets/images/testimonial/t-1.png" alt=""
+                            class="user-pic mx-auto img-fluid rounded-circle">
+
+                        </div>
+                      </div>
+                      <div class="col-9 px-0 ">
+                        <h6 class="user-name">Md Saimon</h6>
+                        <p class="user-designation">Journalist</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="item testimonial-item">
+                  <div class="card testmonial-card border-0">
+                    <div class="row">
+                      <div class="col-6 py-2">
+                        <img src="assets/images/icons/quotes.svg" class="quotes-icon" alt="">
+                      </div>
+                      <div class="col-6 py-2">
+                        <div class="ratestar-box">
+                          <i class="fa-solid fa-star review-star"></i> <i class="fa-solid fa-star review-star"></i> <i
+                            class="fa-solid fa-star review-star"></i> <i class="fa-solid fa-star review-star"></i> <i
+                            class="fa-solid fa-star review-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="testimonial-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat.
+
+                    </p>
+
+                    <div class="user-box row">
+                      <div class="col-3">
+                        <div class="user-img-bx">
+                          <img src="assets/images/testimonial/t-1.png" alt=""
+                            class="user-pic mx-auto img-fluid rounded-circle">
+
+                        </div>
+                      </div>
+                      <div class="col-9 px-0 ">
+                        <h6 class="user-name">Md Saimon</h6>
+                        <p class="user-designation">Journalist</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="item testimonial-item">
+                  <div class="card testmonial-card border-0">
+                    <div class="row">
+                      <div class="col-6 py-2">
+                        <img src="assets/images/icons/quotes.svg" class="quotes-icon" alt="">
+                      </div>
+                      <div class="col-6 py-2">
+                        <div class="ratestar-box">
+                          <i class="fa-solid fa-star review-star"></i> <i class="fa-solid fa-star review-star"></i> <i
+                            class="fa-solid fa-star review-star"></i> <i class="fa-solid fa-star review-star"></i> <i
+                            class="fa-solid fa-star review-star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="testimonial-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat.
+
+                    </p>
+
+                    <div class="user-box row">
+                      <div class="col-3">
+                        <div class="user-img-bx">
+                          <img src="assets/images/testimonial/t-1.png" alt=""
+                            class="user-pic mx-auto img-fluid rounded-circle">
+
+                        </div>
+                      </div>
+                      <div class="col-9 px-0 ">
+                        <h6 class="user-name">Md Saimon</h6>
+                        <p class="user-designation">Journalist</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </section>
+
+    <section class="pad-35" id="brandSection">
+
+      <div class="container">
+        <div class="row ">
+          <div class="brand-box">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <img src="assets/images/brand/b-1.svg" class="d-block mx-auto img-fluid brand-pic" alt="">
+              </div>
+              <div class="item">
+                <img src="assets/images/brand/b-2.svg" class="d-block mx-auto img-fluid brand-pic" alt="">
+              </div>
+              <div class="item">
+                <img src="assets/images/brand/b-3.svg" class="d-block mx-auto img-fluid brand-pic" alt="">
+              </div>
+              <div class="item">
+                <img src="assets/images/brand/b-4.svg" class="d-block mx-auto img-fluid brand-pic" alt="">
+              </div>
+              <div class="item">
+                <img src="assets/images/brand/b-1.svg" class="d-block mx-auto img-fluid brand-pic" alt="">
+              </div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer padt-70" id="footerSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+            <div class="address-box text-start">
+              <img src="assets/images/footerlogo.png" class="d-block" alt="">
+              <p class="cmpny-desc">Quis nostrud exercitatin ullamc boris nisi ut aliquip ex ea commodo conse.
+              </p>
+              <div class="input-group w-66 mb-3">
+                <input type="text" class="form-control search-input border-0" placeholder="Your email here">
+                <span class="input-group-text  border-0 bg-white" id="basic-addon2 "> <i
+                    class="fa-solid fa-envelope f-email"></i></span>
+              </div>
+            </div>
+            <ul class="scl-mdia-box d-flex p-0">
+              <li class="px-2"><a href=""><i class="socil-icon fa-brands fa-facebook"></i></a></li>
+              <li class="px-2"><a href=""><i class="socil-icon fa-brands fa-instagram"></i></a></li>
+              <li class="px-2"><a href=""><i class="socil-icon fa-brands fa-twitter"></i></a></li>
+            </ul>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+            <h5 class="footer-title">Address</h5>
+            <ul class="p-0">
+              <li class="d-flex justify-content-between align-items-center py-2">
+                <i class="adrs-icon fa-solid fa-location-dot pe-3"></i>
+                <p class="location">20, Awesome Road, New York, Usa 4D BS3</p>
+              </li>
+
+              <li class="d-flex  align-items-center py-2">
+                <i class="adrs-icon fa-solid fa-phone pe-3"></i> <a href="tel:+1234567890" class="call">+123 456 7890</a>
+              </li>
+
+              <li class="d-flex  align-items-center py-2">
+                <i class="adrs-icon fa-solid fa-envelope f-email pe-3"></i> <a href="mailto:hello@ulina.com"
+                  class="email">hello@ulina.com</a>
+              </li>
+
+
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-12 col-12">
+            <h5 class="footer-title">Usefull Links</h5>
+            <ul class="p-0">
+              <li class="py-2 ft-link-item"> <a href="" class="ft-link">Shop Cupon</a> </li>
+              <li class="py-2 ft-link-item"> <a href="" class="ft-link">About Us</a> </li>
+              <li class="py-2 ft-link-item"> <a href="" class="ft-link">Carrer</a> </li>
+              <li class="py-2 ft-link-item"> <a href="" class="ft-link">Supports</a> </li>
+
+
+
+
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+            <h5 class="footer-title">Categories</h5>
+            <ul class="p-0">
+              <li class="w-50 float-start py-2"> <a href="" class="ft-link">Men</a> </li>
+              <li class="w-50 float-start py-2"> <a href="" class="ft-link">Women</a> </li>
+              <li class="w-50 float-start py-2"> <a href="" class="ft-link">Kids</a> </li>
+              <li class="w-50 float-start py-2"> <a href="" class="ft-link">Accessories</a> </li>
+              <li class="w-50 float-start py-2"> <a href="" class="ft-link">Bags</a> </li>
+              <li class="w-50 float-start py-2"> <a href="" class="ft-link">Jewellary</a> </li>
+              <li class="w-50 float-start py-2"> <a href="" class="ft-link">Cloths</a> </li>
+              <li class="w-50 float-start py-2"> <a href="" class="ft-link">Beauty Item</a> </li>
+
+
+
+
+
+            </ul>
+          </div>
+
+
+        </div>
+
+        <div class="row border-top justify-content-between pt-3">
+          <div class="col-lg-6 col-12">
+            <p class="description">©Ulina Official 2022</p>
+          </div>
+          <div class="col-lg-6 col-12 ">
+            <ul class="d-flex justify-content-lg-end">
+              <li class="px-2"><a href="" class="pct-link">Privacy policy</a></li>
+              <li class="px-2"><a href="" class="pct-link">Cookies</a></li>
+              <li class="px-2"><a href="" class="pct-link">Terms of service</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
+    integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
